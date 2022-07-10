@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!--As the condition is to simulate in coppelia using the ros connection and so from the given package 
+   gazebo launch skipped in the launch file and so using the plugin connection with the ros it can be identified with the 
+   terminal launch ros launch load succeed in the coppelia sim --> 
+	
+   <node name="goToPoint" pkg="sofar_assignment" type ="go_to_point.py" />
+   
+   <node name="positionServer"  pkg="sofar_assignment" type="position_service" />
+   
+   <node name="stateMachine" pkg="sofar_assignment" type="state_machine" output="screen"/>
+   
+   <node name="userInterface" pkg="sofar_assignment" type="user_interface.py" output="screen"/>
+   
+
+</launch>
